@@ -11,7 +11,6 @@ def key_for_min_value(name_hash)
      if age < min_value
        min_val = age
        key_for_min_value = name
-     elsif age == min_value
        return key_for_min_value
      end
    end
