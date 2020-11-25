@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   if name_hash == (!{})
     age_arr = []
-    name_hash.collect {|key, value|
+    name_hash.collect {|name, age| 
 
     end
   else
