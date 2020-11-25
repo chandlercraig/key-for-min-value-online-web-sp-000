@@ -6,10 +6,12 @@
 #end of the loop, return key_for_min_value.
 
 def key_for_min_value(name_hash)
-  if name_hash == (!{})
+  if name_hash == !{}
    min_value = nil
    key_for_min_value = ""
-   
+   name_hash.each do |name, age|
+     
+   end
   else
     nil
   end
