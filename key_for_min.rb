@@ -8,9 +8,12 @@
 def key_for_min_value(name_hash)
   if name_hash == !{}
    min_value = nil
-   key_for_min_value = ""
+   key_for_min_value = "hi"
    name_hash.each do |name, age|
-     
+     if age < min_value
+       min_val = age
+       key_for_min_value = name
+     end
    end
   else
     nil
