@@ -7,10 +7,9 @@
 
 def key_for_min_value(name_hash)
   if name_hash == (!{})
-    age_arr = []
-    name_hash.collect {|name, age| age_arr << age}
-    end
-    age_arr.each
+   min_value = nil
+   key_for_min_value = ""
+   
   else
     nil
   end
